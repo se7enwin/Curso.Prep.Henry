@@ -1,0 +1,107 @@
+<html>
+    <head> 
+    
+    <title> Hola soy una pagina web </title>
+    <link rel="stylesheet" href="./homework/styleslynk.css" / >
+
+     <style>
+   
+    p {color:red; font-size:42px;}
+    .divClass {color:yellow;font-size:24px;}
+    .spanClass {color:violet;font-size:30px;}
+    .pClass {color:green;font-size:22px;}
+    #divId{color:grey;font-size:30px;}
+    #spanId{color:brown;font-size:30px;}
+    #pId{color:lightblue;font-size:30px;}
+    *{color:orange;}
+   a[href="https://saintseiya.fandom.com/es/wiki/Saint_Seiya"] {color:purple;} 
+
+    </style>
+    </head>
+   
+   <body>
+       
+       <h1> Hola soy el titulo principal</h1>
+       <h3> Hola soy un titulo intermedio</h3>
+       <h6> Hola soy un título de menor importancia</h6>
+       <p> Espacio..</p>
+       
+      <ul>
+          <li> <span id="spanId"style="color:blue";> Hola soy un cuadro span dentro de ul.</span></li>
+          <li> <div style="color:red";> Hola soy un contenedor div dentro de ul.</div></li>
+          <li> <p style="font-size:20px";> Hola soy una lina de texto p dentro de ul.</p></li>
+      </ul>
+<img src="https://www.google.com/logos/doodles/2022/celebrating-the-2022-world-cup-champions-market-6753651837110016-law.gif" />
+<p> Espacio con p ..</p>
+<a href="https://saintseiya.fandom.com/es/wiki/Saint_Seiya"> Este es un link a una buena página de SaintSeiya</a> <div> Hola soy div. Inserto nueva línea?</div><span> Hola, soy span. Inserto nueva línea?</span><p> Hola, soy p. Inserto nueva línea?</p>
+<div class="divClass"> Hola soy una linea div en class</div>
+<span class="spanClass"> Hola soy una linea span en class</span>
+<p class="pClass"> Hola soy una linea p en class</p>
+<div id="divId"> Hola soy una linea div en Id</div>
+<span id="spanId">Hola soy una linea span en Id</span>
+<p Id="pId">Hola soy una linea p en Id</p>
+<div style=background-color:green;height:150px;width:300px;> Hola soy un texto div con una altura de 150 px y un ancho de 300px con un background de color verde</div>
+<span style=background-color:red;color:white;font-size:20px;height:150px;width:300px;> Hola soy un texto span con una altura de 150 px y un ancho de 150 px</span>
+<p style=background-color:lightblue;color:green;font-size:20px;height:150px;width:300px> Hola soy un texto p con una altura de 150 px y un ancho de 150 px</p>
+<div style=border-width:1px;border-style:solid;border-color:black;>Hola soy un div con borde solido de un pixel de grosor de color negro. </div>
+<div style=border-width:3px;border-color:black;border-style:solid;padding:5px;margin:9px;>Hola soy un div con un borde de 3px un padding de 5px y un margin de 9 px</div>
+<div style=background:url("https://laverdadnoticias.com/__export/1643745338203/sites/laverdad/img/2022/02/01/saint_seiya_preludio_de_pegaso.jpg_793492074.jpg");height:300px;width:300px;>Hola soy un div con una imagen de fondo </div>
+<div id="divId7">Hola soy una linea div con formato css externo</div>
+<p style=display:inline;font-size:20px;color:green;>Hola soy p y voy a comportarme como un elemento inline </p><p style=display:inline;font-size:20px;color:green;>Hola soy p y voy a comportarme como un elemento inline </p>
+<span style=display:block;font-size:20px;color:green;>Hola soy span y voy a comportarme como un elemento block </span><span style=display:block;font-size:20px;color:green;>Hola soy span y voy a comportarme como un elemento block </span>
+<div style=display:none;background-color:green;height:150px;width:300px;> Hola soy un texto div con una altura de 150 px y un ancho de 300px con un background de color verde. Con display none. Es decir, reservare el espacio pero sere transparente.</div>
+<div> Hola, reservó div none el espacio arriba?</div>
+<div style=position:fixed;top:0;right:0;background-color:aqua;font-size:25;border-width:3px;border-style:groove;border-color:red;height:150px;width:300px;> Ahora posicionaremos el elemento Div con position de forma fija en el margen superior derecho</div>
+<div style=display:flex;justify-content:center;align-items:center;background-color:aqua;border-width:3px;border-style:groove;border-color:red;height:150px;width:900px;> Ahora centraremos el elemento Div con flex</div>
+
+
+<div class="parent"style=position:relative;>
+
+    <div class="box" id="one"style=display:inline-flex;>One: Cuadrado in line.El siguiente en misma linea.</div>
+    <div class="box" id="Two"style=display:inline-flex;>Two: Se modifica desde css externo.(lynk).</div>
+    <div class="box" id="Three"style=display:inline-flex;background-color:brown;position:relative;left:15px;>Three:De no activar inline:Salto de linea en los cuadros.</div>
+    <div class="box" id="Four"style=display:inline-flex;position:relative;top:15px;left:15px;word-wrap:break-word;>Four:Texto delimitado por los margenes del cuadro</div>
+
+
+</div>
+<div class="parent"style=position:relative;>
+    
+        <div class="box" id="one"style=display:inline-flex;>One-Referente de Three</div>
+        <div class="box" id="TwoTwo"style=display:inline-flex;text-align:center;>Two-Vamos a alinear el texto escrito en el centro del cuadro.</div>
+        <div class="box" id="Three"style=position:absolute;top:25px;left:15px;background:blue;>Three-Absolute en relacion al primer cuadrado</div>
+        <div class="box" id="Four"style=display:inline-flex;position:relative;top:15px;background-color:grey;text-align:right;>Four: Se alinea el texto a la derecha</div>
+     
+    
+</div>   
+<p>espacio</p><p>espacio</p> 
+     <div id="ejercicioSiete"style=display:flex;position:relative;flex-direction:column-reverse;>
+        <div id="elementoUno" class="elementos"><span class="textoElemento"style=display:inline-flex;text-align:center;>Uno: En reverse de 1 a 4. Column: De F1 C4 a F4 C1</span></div>
+        <div id="elementoDos" class="elementos"><span class="textoElemento"style=display:inline-flex;text-align:center;>Dos: En reverse de 2 a 3. Column: De F1 C3 a F3 C1</span></div>
+        <div id="elementoTres" class="elementos"><span class="textoElemento"style=display:inline-flex;text-align:center;>Tres: En reverse de 3 a 2. Column: De F1 C2 a F2 C1</span></div>
+        <div id="elementoCuatro" class="elementos"><span class="textoElemento"style=display:inline-flex;text-align:center;>Cuatro: En reverse de 4 a 1. Column: De F1 C1 a F1 C1</span></div>
+        
+        
+        </div>
+<p>espacio</p>
+        
+        <div style=display:flex;position:relative;width:700px;height:600px;background:black;justify-content:center;flex-direction:column;align-items:center;>
+    
+            <div style=display:inline-block;height:100px;width:150px;background-color:red;align-self:flex-start;text-align:center;>Uno= General: OrdenColumna -->YenLugardeX justify:center / align-self:flexstart</div>
+            <div style=display:inline-block;height:100px;width:150px;background-color:green;text-align:center;>Dos= General: OrdenColumna-->YenLugardeX justify:center / </div>
+            <div style=display:flex;height:100px;width:150px;background-color:green;align-self:flex-end;text-align:center;>Tres= General: OrdenColumna-->YenLugardeX justify:center / align-self:flex-end</div>
+            <div style=display:inline-block;height:100px;width:150px;flex-direction:row;align-self:flex-start;background-color:green;text-align:center;>cuatro= General: OrdenColumna / flex-direction:row (toma principal) align-self:flex-start </div> 
+
+        </div>
+
+        <div style=display:flex;position:relative;width:700px;height:250px;background:black;justify-content:space-between;>
+    
+            <div style=display:inline-block;height:100px;width:150px;background-color:blue;>Justificado (eje X)  </div>
+            <div style=display:inline-block;height:100px;width:150px;background-color:blue;> Generando espacio  </div>
+            <div style=display:flex;height:100px;width:150px;background-color:blue;> entre los </div>
+            <div style=display:inline-block;height:100px;width:150px;background-color:blue;>contenedores  </div>
+            </div>
+
+           
+</body>
+    
+</html>

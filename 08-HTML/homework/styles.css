@@ -10,8 +10,11 @@ img {
     background-color:green;
     width: 500px;
     height: 600px;
-    padding:50px;
-    border: 20px solid yellow;
+    /*padding:50px; */ 
+    border: 20px solid yellow; 
+    padding-left: 40px;
+    padding-top: 50px;
+    margin-left: 50;
 }
 #spanId {
     font-size: 18px;
